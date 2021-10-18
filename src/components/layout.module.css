@@ -1,0 +1,25 @@
+
+/* All site */
+h1, h2, h3, h4, h5, h6 {
+    font-family: monospace;
+}
+
+a, link {
+    color: green;
+}
+
+/* Main */
+.main-container {
+    margin: auto;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+
+/* Aside */
+.aside-container {
+    margin: auto;
+}
+
+.project-list{
+    list-style: none;
+}
