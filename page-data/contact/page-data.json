@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-pages-contact-js",
+    "componentChunkName": "component---src-pages-contact-mdx",
     "path": "/contact/",
-    "result": {"pageContext":{}},
+    "result": {"pageContext":{"frontmatter":{}}},
     "staticQueryHashes": []}
