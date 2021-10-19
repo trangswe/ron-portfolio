@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-blog-index-js",
-    "path": "/blog/",
-    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Blog one"}},{"frontmatter":{"title":"blog 2"}}]}},"pageContext":{}},
-    "staticQueryHashes": []}
