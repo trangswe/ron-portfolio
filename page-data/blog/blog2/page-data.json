@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-blog-2-mdx",
+    "path": "/blog/blog2/",
+    "result": {"data":{"allMdx":{"nodes":[{"frontmatter":{"title":"Blog one"}},{"frontmatter":{"title":"blog 2"}}]}},"pageContext":{"frontmatter":{"title":"blog 2"}}},
+    "staticQueryHashes": []}
