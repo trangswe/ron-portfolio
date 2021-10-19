@@ -1,13 +1,32 @@
-import * as React from "react"
-import Layout from '../../components/layout'
-import NavBar from '../../components/nav-bar'
+import * as React from 'react'
+import { graphql } from 'gatsby'
+import Layout from '../../components/layout.js'
 
-const HomePage = () => {
+const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="Blog | Trang">
-        <h1>this is a blog</h1>
+    <Layout pageTitle="Blog">
+      <h1>I write about random things that interest me.</h1>
+      {
+        data.allMdx.nodes.map((node) => (
+          <article key={node.id}>
+            <h2>{node.frontmatter.title}</h2>
+          </article>
+        ))
+      }
     </Layout>
   )
 }
 
-export default HomePage
+export const query = graphql`
+query  {
+  allMdx {
+    nodes {
+      frontmatter {
+        title
+      }
+    }
+  }
+}
+`
+
+export default BlogPage

@@ -8,18 +8,24 @@ a, link {
     color: green;
 }
 
-/* Main */
-.main-container {
+.container {
     margin: auto;
     max-width: 500px;
     font-family: sans-serif;
 }
-
-/* Aside */
-.aside-container {
-    margin: auto;
+  
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
 }
-
-.project-list{
+.nav-link-item {
+    padding-right: 2rem;
+}
+.nav-link-text {
+    color: black;
+    font-family: monospace;
+}
+.project {
     list-style: none;
 }

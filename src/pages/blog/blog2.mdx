@@ -1,0 +1,27 @@
+---
+title: blog 2
+---
+import { graphql } from "gatsby"
+import Layout from '../../components/layout'
+
+<Layout>
+<h1>{props.pageContext.frontmatter.title}</h1>
+## My Awesome Page
+Here's a paragraph, followed by a paragraph with data!
+## Here's another section
+bla blo
+### Some smaller section
+this is a smaller section
+</Layout>
+
+export const pageQuery = graphql`
+    query  {
+    allMdx {
+        nodes {
+        frontmatter {
+            title
+        }
+        }
+    }
+    }
+`
