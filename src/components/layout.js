@@ -5,7 +5,7 @@ import {
   heading,
   navLinks,
   navLinkItem,
-  navLinkText
+  navLinkText,
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
@@ -22,11 +22,6 @@ const Layout = ({ pageTitle, children }) => {
           <li className={navLinkItem}>
             <Link to="/#projects" className={navLinkText}>
               projects
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/blog" className={navLinkText}>
-              blog
             </Link>
           </li>
           <li className={navLinkItem}>

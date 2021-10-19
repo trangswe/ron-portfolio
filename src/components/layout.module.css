@@ -20,6 +20,7 @@ a, link {
     display: flex;
     list-style: none;
     padding-left: 0;
+    margin: auto;
 }
 .nav-link-item {
     padding-right: 2rem;
@@ -34,6 +35,9 @@ a, link {
     color: white;
     background-color: green;
 }
-.project {
-    list-style: none;
-}
+
+
+.center {
+    margin: auto;
+    padding: 10px;
+  }
