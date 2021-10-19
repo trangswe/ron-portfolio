@@ -1,15 +1,19 @@
 import * as React from 'react'
-import { graphql } from 'gatsby'
-import Layout from '../../components/layout.js'
+import { Link, graphql } from 'gatsby'
+import Layout from '../../components/layout'
 
 const BlogPage = ({ data }) => {
   return (
-    <Layout pageTitle="Blog">
-      <h1>I write about random things that interest me.</h1>
+    <Layout pageTitle="Blog | Trang">
+      <h1>I write about random stuffs that interest me.</h1>
       {
-        data.allMdx.nodes.map((node) => (
+        data.allMdx.nodes.map(node => (
           <article key={node.id}>
-            <h2>{node.frontmatter.title}</h2>
+            <h2>
+              <Link to={`${node.slug}`}>
+                {node.frontmatter.title}
+              </Link>
+            </h2>
           </article>
         ))
       }
@@ -18,15 +22,17 @@ const BlogPage = ({ data }) => {
 }
 
 export const query = graphql`
-query  {
-  allMdx {
-    nodes {
-      frontmatter {
-        title
+  query {
+    allMdx {
+      nodes {
+        frontmatter {
+          title
+        }
+        id
+        slug
       }
     }
   }
-}
 `
 
 export default BlogPage
