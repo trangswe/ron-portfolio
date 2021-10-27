@@ -11,7 +11,7 @@ a, link {
 .container {
     margin: auto;
     max-width: 500px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
 }
 
@@ -31,13 +31,13 @@ a, link {
     font-size: large;
     font-weight: bold;
 }
-.nav-link-item :hover{
+.nav-link-item :hover {
     color: white;
     background-color: green;
 }
 
-
+/* center */
 .center {
     margin: auto;
     padding: 10px;
-  }
+}

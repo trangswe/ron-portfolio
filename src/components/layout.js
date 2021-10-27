@@ -2,7 +2,6 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import {
   container,
-  heading,
   navLinks,
   navLinkItem,
   navLinkText,
@@ -18,7 +17,7 @@ const Layout = ({ pageTitle, children }) => {
               ./trang
           </li>
           <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
+            <Link to="/" className={navLinkText} activeClassname="active">
               projects
             </Link>
           </li>
