@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[524],{8080:function(e,t,l){l.r(t);var r=l(7294),a=l(7002);t.default=function(){return r.createElement(a.Z,null,r.createElement("h1",null,"I write ablout random stuffs that interest me."))}}}]);
+//# sourceMappingURL=component---src-pages-blog-index-js-add224dc1f7d33a94555.js.map
