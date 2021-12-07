@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[853],{8917:function(e,t,l){l.r(t);var r=l(7294),o=l(7198);t.default=function(){return r.createElement(o.Z,{pageTitle:"Super Cool Blog Posts"},r.createElement("p",null,"My blog post contents will go here (eventually)."))}}}]);
-//# sourceMappingURL=component---src-pages-blog-mdx-slug-js-535f2412d6339e94da4f.js.map

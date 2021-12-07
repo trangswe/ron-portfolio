@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[524],{8080:function(e,t,r){r.r(t);var a=r(7294),l=r(7198);t.default=function(e){var t=e.data;return a.createElement(l.Z,{pageTitle:"Blog"},a.createElement("h1",null,"I write about random things that interest me."),t.allMdx.nodes.map((function(e){return a.createElement("article",{key:e.id},a.createElement("h2",null,e.frontmatter.title))})))}}}]);
-//# sourceMappingURL=component---src-pages-blog-index-js-dd667ee832edb6917c49.js.map
