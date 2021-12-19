@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-beginning-python-mdx",
     "path": "/beginning-python/",
-    "result": {"pageContext":{"frontmatter":{"title":"Beginning Python"}}},
+    "result": {"pageContext":{"frontmatter":{}}},
     "staticQueryHashes": []}
