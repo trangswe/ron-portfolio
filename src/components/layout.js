@@ -18,12 +18,12 @@ const Layout = ({ pageTitle, children }) => {
           </li>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText} activeClassname="active">
-              projects
+              CV
             </Link>
           </li>
           <li className={navLinkItem}>
             <Link to="/contact" className={navLinkText}>
-              contact
+              Contact
             </Link>
           </li>
         </ul>
