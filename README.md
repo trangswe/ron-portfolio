@@ -12,5 +12,5 @@
 - I made a new branch call "deployment" and set Github Page to deploy from there. Then as I build the website, when ready to deploy, I merge branch master to deployment and run `npm run deploy`. 
 - There is a script you have to add somewhere. When you clone this particular project I've already add it so don't worry. But incase it doesn't work, please refer to the tutorial.
 
-## Author
+## 👩‍🦰 Author
 [Trang Nguyen](https://trang17.github.io).
