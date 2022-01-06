@@ -10,10 +10,6 @@ a {
     
 }
 
-#a {
-    quotes: "'" "'";
-  }
-
 a:hover {
     text-decoration: underline; 
 }
