@@ -6,7 +6,7 @@
 - Install all dependencies: `npm install`
 - `npm run develop`
 - Happy coding!
-- Don't worry about my commit messages, things are fixed now and run on my use case. Hope it works for you too.
+- Don't worry about my commit messages, things are fixed now and run on my machine. Hope it works for you too.
 
 ## 👏 Deploy to Github Page
 - This is how it work with my project, maybe it'll work for you as well. But I think you best search "deploy Gatsby site on Github Page" and do as the tutorial teach (that's what I did).
