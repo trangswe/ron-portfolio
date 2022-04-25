@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 /* All site */
 h1, h2, h3, h4, h5, h6 {
-    font-family: monospace;
+    font-family: 'Inconsolata', monospace;;
 }
 
 a {
@@ -33,7 +34,7 @@ a:hover {
 }
 .nav-link-text {
     color: green;
-    font-family: monospace;
+    font-family: 'Inconsolata', monospace;;
     font-size: large;
     font-weight: bold;
 }
