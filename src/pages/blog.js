@@ -1,11 +1,11 @@
 import * as React from 'react'
 import { Link, graphql } from 'gatsby'
-import Layout from '../../components/layout'
+import Layout from '../components/layout'
 
 const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="Blog | Trang">
-      <h1>I write about random stuffs that interest me.</h1>
+      <h1>👻 I write about random stuffs that interest me.</h1>
       {
         data.allMdx.nodes.map(node => (
           <article key={node.id}>
@@ -23,7 +23,7 @@ const BlogPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    allMdx(sort: {fields: frontmatter___date, order: DESC}) {
+    allMdx {
       nodes {
         frontmatter {
           title
