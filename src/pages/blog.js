@@ -6,7 +6,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="Blog | Trang">
-      <h1>I write about random stuffs that interest me.</h1>
+      <h1>I write about/ translate random stuffs that interest me.</h1>
       {
         data.allMdx.nodes.map(node => (
           <article key={node.id}>
