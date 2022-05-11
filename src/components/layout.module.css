@@ -27,7 +27,6 @@ a:hover {
     display: flex;
     list-style: none;
     padding-left: 0;
-    margin: auto;
 }
 .nav-link-item {
     padding-right: 2rem;
