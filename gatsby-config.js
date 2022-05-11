@@ -13,6 +13,7 @@ module.exports = {
     },
     `gatsby-plugin-mdx`,
     `gatsby-plugin-mdx-source-name` ,
-
+    `gatsby-plugin-sharp`,
+    "gatsby-plugin-image",
   ],
 }
